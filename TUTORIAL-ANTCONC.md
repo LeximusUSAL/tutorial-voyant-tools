@@ -1085,6 +1085,6 @@ Configura cada herramienta individualmente:
 
 ---
 
-**Última actualización:** Enero 2025
+**Última actualización:** Octubre 2025
 **Versión de AntConc:** 4.3.1
-**Autor del tutorial:** Para estudiantes de humanidades digitales
+**Tutorial:** Para estudiantes del Máster en Música Hispana de la Universidad de Salamanca
