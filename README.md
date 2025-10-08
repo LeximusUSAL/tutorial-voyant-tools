@@ -99,7 +99,7 @@ Tienes **3 formas** de subir tus textos:
 
 **Puedes subir:**
 - Un solo archivo
-- Múltiples archivos a la vez (Ctrl+Click o Cmd+Click)
+- Múltiples archivos a la vez (Ctrl+Click o Cmd+Click) o en carpeta comprimida ZIP (más sencillo)
 - Hasta 10 MB por archivo
 
 ---
@@ -268,15 +268,6 @@ Si quieres eliminar palabras específicas del análisis:
 4. **Añade palabras personalizadas:** Una por línea
 5. Haz clic en **"Confirm"**
 
-**Ejemplo de stopwords personalizadas para música:**
-```
-señor
-señora
-señorita
-don
-doña
-```
-
 ---
 
 ### 6.2. **Exportar resultados**
@@ -310,24 +301,24 @@ Voyant **NO guarda automáticamente**. Para guardar:
 
 ## PASO 7: Ejemplos de uso académico
 
-### Ejemplo 1: Analizar poesía de García Lorca
+### Ejemplo 1: Analizar Bibliografía para tus investigaciones
 
-**Objetivo:** Encontrar palabras clave en la obra de Lorca
+**Objetivo:** Encontrar patrones y tendencias
 
 **Pasos:**
-1. Sube archivos .txt con poemas de Lorca
-2. Observa Cirrus: probablemente verás "luna", "sangre", "verde", "muerte"
-3. Usa Contexts para ver cómo usa "luna" en diferentes poemas
-4. Usa Correlations para encontrar palabras asociadas a "muerte"
+1. Sube archivos .txt con bibliografía seleccionada
+2. Observa Cirrus: verás las palabras y conceptos más utilizados
+3. Usa Contexts para ver cómo usa "nacionalismo" o "españa" los distintos textos
+4. Usa Correlations para encontrar palabras asociadas a "española"
 
 ---
 
 ### Ejemplo 2: Comparar dos autores
 
-**Objetivo:** Comparar vocabulario de Cervantes vs. Quevedo
+**Objetivo:** Comparar vocabulario de textos de musicología de 1910 vs. un texto de 2024
 
 **Pasos:**
-1. Sube textos de Cervantes y Quevedo **en carpetas separadas** o con nombres claros
+1. Sube textos de las dos épocas marcando en el nombre del archivo en primer lugar el año de publicación
 2. Usa Terms para ver palabras más frecuentes de cada uno
 3. Usa Trends para ver qué palabras son únicas de cada autor
 4. Exporta tablas para comparar en Excel
@@ -408,22 +399,7 @@ Voyant **NO guarda automáticamente**. Para guardar:
 
 ---
 
-## PASO 10: Comparación con Distant Reader
-
-| Característica | Voyant Tools | Distant Reader |
-|----------------|--------------|----------------|
-| **Instalación** | Ninguna (web) | Conda, Python, dependencias |
-| **Dificultad** | ⭐ Muy fácil | ⭐⭐⭐⭐⭐ Muy difícil |
-| **Errores** | Casi ninguno | Muchos (numpy, pandas, Tika, Java) |
-| **Tiempo setup** | 0 minutos | 30-60 minutos |
-| **Visualizaciones** | Inmediatas | Requiere procesamiento |
-| **Ideal para** | Estudiantes, primeros análisis | Investigadores con experiencia técnica |
-| **Costo** | Gratis | Gratis |
-| **Soporte español** | ✅ Excelente | ✅ Bueno |
-
----
-
-## PASO 11: Recursos adicionales
+## PASO 10: Recursos adicionales
 
 ### Documentación oficial
 - **Documentación completa:** https://voyant-tools.org/docs/#!/guide/start
@@ -440,39 +416,39 @@ Voyant **NO guarda automáticamente**. Para guardar:
 
 ---
 
-## PASO 12: Actividad práctica para estudiantes
+## PASO 11: Actividad práctica para estudiantes
 
-### Ejercicio: Análisis de textos literarios
+### Ejercicio: Análisis de bibliografía para tu investigación
 
 **Objetivo:** Familiarizarse con Voyant Tools en 30 minutos
 
 **Materiales:**
-- 3-5 textos cortos en español (.txt)
+- 10 artículos en español (.txt)
 - Computadora con Internet
 
 **Actividad paso a paso:**
 
 1. **[5 min] Preparación:**
-   - Descargar 3 cuentos de Borges (disponibles en dominio público)
+   - Pasar tus artículos en .pdf a .txt
    - Guardarlos como .txt
 
 2. **[5 min] Subir a Voyant:**
    - Ir a https://voyant-tools.org
-   - Subir los 3 archivos
+   - Subir los archivos txt
    - Hacer clic en "Revelar"
 
 3. **[10 min] Exploración:**
    - Observar Cirrus: ¿Cuáles son las 10 palabras más frecuentes?
    - Ver Summary: ¿Cuántas palabras tiene el corpus?
-   - Buscar en Contexts la palabra "laberinto"
+   - Buscar en Contexts la palabra "española"
 
 4. **[10 min] Análisis:**
-   - Usar Trends para comparar "tiempo" vs "espacio" vs "memoria"
-   - Usar Correlations para encontrar palabras asociadas a "Borges"
+   - Usar Trends para comparar "española" vs "universal"
+   - Usar Correlations para encontrar palabras asociadas a "Música"
    - Exportar nube de palabras como imagen
 
 5. **[5 min] Reflexión:**
-   - ¿Qué palabras clave definen el estilo de Borges?
+   - ¿Qué palabras clave son las principales en tu bibliografía seleccionada?
    - ¿Qué patrones encontraste?
 
 ---
@@ -480,8 +456,8 @@ Voyant **NO guarda automáticamente**. Para guardar:
 ## Conclusión
 
 **Voyant Tools es ideal para:**
-- ✅ Clases de humanidades digitales
-- ✅ Análisis literario
+- ✅ Clases de humanidades digitales / Investigación en Musicología
+- ✅ Análisis estilo en distintas épocas históricas
 - ✅ Estudios de corpus
 - ✅ Análisis de prensa histórica
 - ✅ Investigación exploratoria
@@ -521,6 +497,9 @@ Sí, existe Voyant Server para instalar en tu computadora, pero para uso educati
 
 ---
 
-**Creado para estudiantes de humanidades digitales sin experiencia en programación.**
+**Creado para estudiantes del Máster en Música Hispana.**
+
+Proyecto LexiMus: Léxico y Ontología de la Música en Español (Universidad de Salamanca) Prensa musical e Inteligencia Artificial. Proyecto LexiMus: Léxico y ontología de la música en español (PID2022-139589NB-C33), Universidad de Salamanca. Disponible en: https://LeximusUSAL.github.io/inicio
+© 2025 Universidad de Salamanca
 
 **Última actualización:** Enero 2025
